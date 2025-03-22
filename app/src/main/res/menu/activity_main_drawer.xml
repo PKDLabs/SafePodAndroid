@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_my_posts"
+            android:icon="@drawable/ic_account_box"
+            android:title="My Posts" />
+        <!--<item-->
+        <!--android:id="@+id/nav_gallery"-->
+        <!--android:icon="@drawable/ic_menu_gallery"-->
+        <!--android:title="Gallery" />-->
+        <!--<item-->
+        <!--android:id="@+id/nav_slideshow"-->
+        <!--android:icon="@drawable/ic_menu_slideshow"-->
+        <!--android:title="Slideshow" />-->
+        <!--<item-->
+        <!--android:id="@+id/nav_manage"-->
+        <!--android:icon="@drawable/ic_menu_manage"-->
+        <!--android:title="Tools" />-->
+    </group>
+
+    <item android:title="Info">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="About us" />
+            <!--<item-->
+            <!--android:id="@+id/nav_questions"-->
+            <!--android:icon="@drawable/ic_help"-->
+            <!--android:title="Questions" />-->
+        </menu>
+    </item>
+
+</menu>
